@@ -1,5 +1,23 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  devtools: { enabled: true }
-})
+  srcDir: "src",
+  devtools: { enabled: true },
+  modules: ["@nuxtjs/i18n", "@pinia/nuxt"],
+  i18n: {
+    strategy: "no_prefix",
+    locales: [
+      {
+        code: "en",
+        file: "en.json",
+        name: "English",
+      },
+      {
+        code: "th",
+        file: "th.json",
+        name: "Thai",
+      },
+    ],
+    lazy: true,
+    langDir: "locales/",
+    defaultLocale: "en",
+  },
+});

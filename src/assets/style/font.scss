@@ -1,0 +1,176 @@
+$font-name: 'Mitr';
+
+@font-face {
+  font-family: $font-name;
+  src: url('@/assets/fonts/Mitr-ExtraLight.woff2') format('woff2'),
+    url('@/assets/fonts/#{$font-name}-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-name;
+  src: url('@/assets/fonts/Mitr-Light.woff2') format('woff2'),
+    url('@/assets/fonts/#{$font-name}-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-name;
+  src: url('@/assets/fonts/Mitr-Regular.woff2') format('woff2'),
+    url('@/assets/fonts/#{$font-name}-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-name;
+  src: url('@/assets/fonts/Mitr-Medium.woff2') format('woff2'),
+    url('@/assets/fonts/#{$font-name}-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-name;
+  src: url('@/assets/fonts/Mitr-SemiBold.woff2') format('woff2'),
+    url('@/assets/fonts/#{$font-name}-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: $font-name;
+  src: url('@/assets/fonts/Mitr-Bold.woff2') format('woff2'),
+    url('@/assets/fonts/#{$font-name}-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header-3 {
+  font-family: $font-name;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.26px;
+  letter-spacing: 0.0015em;
+}
+
+.header-4 {
+  font-family: $font-name;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.12px;
+  letter-spacing: 0.0015em;
+}
+
+.header-5 {
+  font-family: $font-name;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.98px;
+  letter-spacing: 0.0015em;
+}
+
+.header-6 {
+  font-family: $font-name;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18.84px;
+  letter-spacing: 0.0015em;
+}
+
+.body-1 {
+  font-family: $font-name;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.12px;
+  letter-spacing: 0.0015em;
+}
+
+.body-2 {
+  font-family: $font-name;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21.98px;
+  letter-spacing: 0.0015em;
+}
+
+.caption-1 {
+  font-family: $font-name;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18.84px;
+  letter-spacing: 0.0015em;
+}
+
+.caption-3 {
+  font-family: $font-name;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+.subtitle-1 {
+  //styleName: Subtitle/Subtitle 1;
+  font-family: $font-name;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.12px;
+  letter-spacing: 0.0015em;
+}
+
+.subtitle-2 {
+  //styleName: Subtitle/Subtitle 2;
+  font-family: $font-name;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.12px;
+  letter-spacing: 0.0015em;
+}
+
+.subtitle-3 {
+  //styleName: Subtitle/Subtitle 3;
+  font-family: $font-name;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.98px;
+  letter-spacing: 0.0015em;
+}
+
+.subtitle-4 {
+  font-family: $font-name;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18.84px;
+  letter-spacing: 0.0015em;
+  text-align: left;
+}
+
+.text-link {
+  font-family: $font-name;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.12px;
+}
+
+.text-link-2 {
+  font-family: $font-name;
+  font-size: 14px;
+  line-height: 21.98px;
+  letter-spacing: 0.0015em;
+}
+
+.text-link-4 {
+  font-family: $font-name;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 10px;
+  letter-spacing: 0.0015em;
+}
